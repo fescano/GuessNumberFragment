@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/configFragment">
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.example.guessnumberfragment.UI.ConfigFragment"
+        android:label="ConfigFragment"
+        tools:layout="@layout/fragment_config">
+        <action
+            android:id="@+id/action_configFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.guessnumberfragment.UI.PlayFragment"
+        android:label="PlayFragment"
+        tools:layout="@layout/fragment_play">
+        <action
+            android:id="@+id/action_playFragment_to_endPlayFragment"
+            app:destination="@id/endPlayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endPlayFragment"
+        android:name="com.example.guessnumberfragment.UI.EndPlayFragment"
+        android:label="EndPlayFragment"
+        tools:layout="@layout/fragment_end_play">
+        <action
+            android:id="@+id/action_endPlayFragment_to_configFragment"
+            app:destination="@id/configFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.guessnumberfragment.UI.AboutUsFragment"
+        android:label="AboutUsFragment"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>

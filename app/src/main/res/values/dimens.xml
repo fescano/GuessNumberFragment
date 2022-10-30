@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="etMessageMarginTop">10dp</dimen>
+    <dimen name="etMessageMinHeight">48dp</dimen>
+    <dimen name="btSendMarginTop">20dp</dimen>
+    <dimen name="etUserMarginTop">10dp</dimen>
+    <dimen name="etUserMinHeight">48dp</dimen>
+    <dimen name="etInputMarginTop">20dp</dimen>
+    <dimen name="ButtonLinearLayoutHeight">50dp</dimen>
+    <dimen name="LeftSpaceWidth">20dp</dimen>
+    <dimen name="CentreSpaceWidth">90dp</dimen>
+    <dimen name="tvMessageMarginTop">20dp</dimen>
+    <dimen name="tvMessageMinHeight">30dp</dimen>
+    <dimen name="RightSpaceWidth">50dp</dimen>
+    <dimen name="tvUserTextMarginTop">20dp</dimen>
+    <dimen name="tvUserTextMinHeight">20dp</dimen>
+    <dimen name="tvMessageTextMarginTop">20dp</dimen>
+    <dimen name="tvFinalMinHeight">50dp</dimen>
+    <dimen name="tvDesgloseMarginTop">20dp</dimen>
+    <dimen name="tvFinalTextSize">40dp</dimen>
+    <dimen name="tvDesgloseMinHeight">100dp</dimen>
+    <dimen name="tvFinalMarginTop">20dp</dimen>
+    <dimen name="txDesgloseTextSize">25dp</dimen>
+</resources>

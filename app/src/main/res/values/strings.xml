@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">GuessNumberFragment</string>
+    <string name="first_fragment_label">Primer Fragment</string>
+    <string name="second_fragment_label">Segundo Fragment</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="etMessageHint">Escribe el número de intentos para adivinar</string>
+    <string name="etMessageText" translatable="false" />
+    <string name="btSendText">¡A jugar!</string>
+    <string name="etUserHint">Introduce tu nombre</string>
+    <string name="aboutus">Sobre nosotros</string>
+    <string name="aboutUsSubTittle">Estudiante del IES Portada Alta</string>
+    <string name="etInputHint">Introduce un número para adivinar</string>
+    <string name="btInputText">Probar</string>
+    <string name="btRetryText">Intertar de nuevo</string>
+    <string name="onlydigit">No has escrito un número correcto</string>
+    <string name="setnumber">El usuario y el número de intentos deben estan llenos</string>
+    <string name="aboutUsCreator">fescano</string>
+    <string name="aboutUsBrief">E-mail: al.fernando.escano.martin@iesportada.org</string>
+    <string name="tvMessageMayor">El número escrito es mayor al buscado</string>
+    <string name="tvMessageMenor">El número escrito es menor al buscado</string>
+    <string name="intentosRestantes">"Intentos restantes: "</string>
+    <string name="menorQueCero">Escribe un número mayor que 0</string>
+    <string name="tvUserTextText">Usuario:</string>
+    <string name="tvMessageTextText">Número de intentos:</string>
+    <string name="tvFinalTextP">¡HAS PERDIDO!</string>
+    <string name="tvFinalTextV">¡HAS GANADO!</string>
+    <string name="tvDesgloseText1">,\ lo has intentado:\ </string>
+    <string name="tvDesgloseText2">" vez/ces de: "</string>
+    <string name="tvDesgloseText3">", el número oculto era: "</string>
+    <string name="btFinishText">Volver al menu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iAboutUsTitle">Sobre nosotros</string>
+</resources>

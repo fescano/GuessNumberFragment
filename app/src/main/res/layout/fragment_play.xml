@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UI.PlayFragment">
+    <data>
+        <variable
+            name="user"
+            type="com.example.guessnumberfragment.data.User"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".UI.PlayFragment">
+
+            <EditText
+                android:id="@+id/etInput"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/etInputMarginTop"
+                android:autofillHints=""
+                android:hint="@string/etInputHint"
+                android:minHeight="@dimen/etUserMinHeight"
+                android:textColorHint="@color/etUserColorHint" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ButtonLinearLayoutHeight"
+                tools:context=".UI.PlayActivity">
+
+                <Button
+                    android:id="@+id/btInput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/btInputText" />
+
+                <Space
+                    android:layout_width="@dimen/CentreSpaceWidth"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Button
+                    android:id="@+id/btRetry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/btRetryText" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tvMessageMarginTop"
+                android:minHeight="@dimen/tvMessageMinHeight" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

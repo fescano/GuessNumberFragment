@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumberFragment</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="etMessageHint">Write the number that you want to guess</string>
+    <string name="etMessageText" translatable="false" />
+    <string name="btSendText">¡Play!</string>
+    <string name="etUserHint">Write your number</string>
+    <string name="aboutus">About us</string>
+    <string name="aboutUsSubTittle">Student of IES Portada Alta</string>
+    <string name="etInputHint">Write a number to try to guess</string>
+    <string name="btInputText">Try</string>
+    <string name="btRetryText">Try again</string>
+    <string name="onlydigit">You have written a wrong number</string>
+    <string name="setnumber">The user and number field must to be fill</string>
+    <string name="aboutUsCreator">fescano</string>
+    <string name="aboutUsBrief">E-mail: al.fernando.escano.martin@iesportada.org</string>
+    <string name="tvMessageMayor">The number that you wrote is bigger than the one that you wanted to find</string>
+    <string name="tvMessageMenor">The number that you wrote is smaller than the one that you wanted to find</string>
+    <string name="intentosRestantes">"Attempts remaining: "</string>
+    <string name="menorQueCero">Write a number bigger than 0</string>
+    <string name="tvUserTextText">User:</string>
+    <string name="tvMessageTextText">Number of tries:</string>
+    <string name="tvFinalTextP">¡YOU LOST!</string>
+    <string name="tvFinalTextV">¡YOU WIN!</string>
+    <string name="tvDesgloseText1">,\ you have tried:\ </string>
+    <string name="tvDesgloseText2">" time/s of: "</string>
+    <string name="tvDesgloseText3">", the hidden number was: "</string>
+    <string name="btFinishText">Back to the menu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iAboutUsTitle">About us</string>
+</resources>

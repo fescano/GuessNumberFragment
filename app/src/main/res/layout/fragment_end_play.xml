@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UI.EndPlayFragment">
+    <data>
+        <variable
+            name="user"
+            type="com.example.guessnumberfragment.data.User"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".UI.EndPlayFragment">
+            <TextView
+                android:id="@+id/tvFinalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tvFinalMarginTop"
+                android:textAlignment="center"
+                android:textSize="@dimen/tvFinalTextSize"
+                android:minHeight="@dimen/tvFinalMinHeight"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/tvDesgloseText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txDesgloseTextSize"
+                android:layout_marginTop="@dimen/tvDesgloseMarginTop"
+                android:minHeight="@dimen/tvDesgloseMinHeight"
+                tools:ignore="SpUsage" />
+
+            <Button
+                android:id="@+id/btFinish"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/btSendMarginTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btFinishText"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
